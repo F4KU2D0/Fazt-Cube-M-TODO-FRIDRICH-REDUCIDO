@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazt Cube|MÉTODO FRIDRICH REDUCIDO</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!--h1 se utiliza para titulares-->
+    <header class="header">
+        <div class="logotipo">
+            <img src="https://i.pinimg.com/736x/26/75/9e/26759e84dda4c90fef7228aed6119357--rubiks-cube-design-flat-logo.jpg" alt="logotipo" height="250"/>
+            </div>
+ <ul class="menu">
+    <li><a target="_blank" href="file:///C:/Users/jhim2/OneDrive/Documentos/Escritorio/metodo-fridrich-reducido/index4.html"><h2>Inicio</h2></a></li>  
+    </ul>
+   <ul class="menu2">
+<li><a target="_blank" href="file:///C:/Users/jhim2/OneDrive/Documentos/Escritorio/metodo-fridrich-reducido/index6.html"><h2>Anotacion</h2></a></li>
+</ul>
+<ul class="menu3">
+<li><a target="_blank" href="file:///C:/Users/jhim2/OneDrive/Documentos/Escritorio/metodo-fridrich-reducido/index5.html"><h2>Resolucion</h2></a></li>
+</ul>
+</header>
+<hr/>
+<div class="aguarda">
+<h1>MÉTODO FRIDRICH REDUCIDO</h1>
+<h2>Hola supongo que si estas aca es por que ya sabes Metodo Principiantes, si no es 
+fundamental 
+que te sepas el Metodo Principiantes, tambien es 
+fundamental
+que te sepas la anotacion del cubo de rubik si no, no podras 
+leer los algoritmos que 
+ocuparemos para Fridrich Reducido antes de empezar te explicare otras cosas de este Metodo
+curiosidades y mas, el nombre de Fridrich o CFOP es por lo siguiente, CFOP es por las iniciales
+de cada uno de sus pasos, Cruz, F2L, OLL, PLL y el nombre Fridrich es en honor a la creadora del Metodo
+Jessica Fridrich.</h2>
+<br/>
+<br/>
+<br/>
+<div class="nav">
+<a target="_blank" href="file:///C:/Users/jhim2/OneDrive/Documentos/Escritorio/metodo-fridrich-reducido/index2.html"><h2>Metodo Principiantes</h2></a>
+</div>
+<br/>
+<div class="nav">
+<a target="_blank" href="file:///C:/Users/jhim2/OneDrive/Documentos/Escritorio/metodo-fridrich-reducido/index3.html"><h2>Anotacion del cubo de rubik</h2></a>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>El metodo Fridrich Reducido consiste en 4 pasos distintos:</h2>
+<br/>
+<br/>
+<br/>
+<ul class="lista">
+<li><b>Cruz:</b>como en el método principiante primero haremos la cruz.</li>
+<li><b>F2L:</b>del ingles, First Two Layers, en este paso resolveremos las dos primeras capas de golpe. </li>    
+ <li><b>OLL:</b>del ingles, Orient Last Layer, orientaremos las piezas de la última capa, así quedará toda la cara amarilla resuelta, sin importar si las posición de las piezas es correcta.      </li>
+ <li><b>PLL:</b>Permutate Last Layer, en este último paso permutaremos las piezas de la última capa para dejar el cubo resuelto.  </li>
+</ul>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/mesclat.png" alt="3x3x3 revuelto" height="150"/>
+<h2>Cubo revuelto</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/c.png" alt="Cruz ya hecha 3x3x3"/>
+<h2>Cruz ya hecha</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/f.png" alt="F2L ya hecho 3x3x3"/>
+<h2>F2L hecho</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/o.png" alt="OLL ya hecho 3x3x3"/>
+<h2>OLL hecho</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/p.png" alt="PLL ya hecho 3x3x3"/>
+<h2>PLL hecho</h2>
+<hr/>
+<br/>
+<br/>
+<br/>
+<h2>LA CRUZ</h2>
+<br/>
+<h3>Como ya sabes resolver el cubo con el método principiante i sabes hacer la cruz sin problemas, no pararemos a explicar como se hace, resuelve la cruz i seguimos.</h3>
+<hr/>
+<br/>
+<h2>F2L:LAS DOS PRIMERAS CAPAS</h2>
+<br/>
+<h3>Para resolver las dos primeras capas de golpe podemos memorizar muchos algoritmos, 42 concretamente en F2L completo, pero la mejor manera de hacerlo es de manera intuitiva.</h3>
+<br>
+<h3>A diferencia del método principiante, ahora cogeremos el cubo con la cruz en la parte de abajo, si hemos empezado resolviendo la cruz blanca, la capa blanca, a partir de ahora siempre mirará haca abajo.
+</h3>
+<br/>
+<br/>
+<br/>
+<h3>Como estamos aprendiendo F2L reducido i no F2L completo, te dejo los 24 casos mas simples de F2L, son los casos en los que la arista i la esquina están en la capa superior. Si en tu caso no es así, intenta poner la esquina i la arista en la capa superior de manera intuitiva, posteriormente ya podrás usar uno de los 24 algoritmos.
+    Intenta entender i encontrar la lógica a los algoritmos, de esta manera conseguirás hacer F2L de manera intuitiva i no necesitarás memorizar todos los casos.</h3>
+<br/>
+<br/>
+<br/>
+<h2>ARISTA I ESQUINA EN LA CAPA SUPERIOR</h2>
+<br/>
+<br/>
+<h3>BÁSICOS</h3>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/B1.png" alt="F2L 1"/>
+<h2>U' F' U F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/B2.png" alt="F2L 2"/>
+<h2>U R U' R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/B3.png" alt="F2L 3"/>
+<h2>F' U' F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/B4.png" alt="F2L 4"/>
+<h2>R U R'</h2>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>ESQUINA APUNTANDO CON EL BLANCO A UN LATERAL</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE1.png" alt="F2L 5"/>
+<h2>R U' R' U R U' R' U2 R U' R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE2.png" alt="F2L 6"/>
+<h2>U' R U2' R' d R' U' R</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE3.png" alt="F2L 7"/>
+<h2>R U' R' U2 F' U' F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE4.png" alt="F2L 8"/>
+<h2>F' U F U2 R U R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE5.png" alt="F2L 9"/>
+<h2>U' R U' R' U R U R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE6.png" alt="F2L 10"/>
+<h2>D R' U R U' R' U' R</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE7.png" alt="F2L 11"/>
+<h2>U F' U' F U2 F' U F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE8.png" alt="F2L 12"/>
+<h2>U' R U R' U' R U2 R</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE9.png" alt="F2L 13"/>
+<h2>U' R U R' U R U R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE10.png" alt="F2L 14"/>
+<h2>U' R U' R' U F' U' F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE11.png" alt="F2L 15"/>
+<h2>y' U R' U2 R U2 R' U R</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/AE12.png" alt="F2L 16"/>
+<h2>U' R U2 R' U2 R U' R'</h2>
+<br/>
+<br/>
+<br/>
+<h2>ESQUINA APUNTANDO CON EL BLANCO ARRIBA</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U1.png" alt="F2L 17"/>
+<h2>R U R' U2 R U R' U' R U R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U2.png" alt="F2L 18"/>
+<h2>R U R' U R U2 R' F' U2 F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U3.png" alt="F2L 19"/>
+<h2>F' U2 F U F' U' F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U4.png" alt="F2L 20"/>
+<h2>R U2 R' U' R U R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U5.png" alt="F2L 21"/>
+<h2>U' F' U2 F U' F' U F</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U6.png" alt="F2L 22"/>
+<h2>U R U2 R' U R U' R'</h2>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U7.png" alt="F2L 23"/>
+<h2>U2 R U R' U R U' R'</h2>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/F2L/U8.png" alt="F2L 24"/>
+<h2>U2 F' U' F U' F' U F</h2>
+<hr/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>OLL REDUCIDO: ORIENTACIÓN DE LA ÚLTIMA CAPA</h2>
+<br/>
+<h3>OLL consiste en orientar todas las piezas de la última capa, de manera que el color amarillo de todas las piezas quede mirando hacia arriba, sin importar si las piezas están en su sitio.</h3>
+<br/>
+<h3>En OLL completo hay 58 algoritmos distintos para orientar las piezas de la última capa con un solo algoritmo, como estamos aprendiendo OLL reducido no necesitaremos aprender los 58 algoritmos, los reduciremos a 9, dividiendo OLL en dos pasos. Cruz amarilla i orientación de esquinas.</h3>
+<br/>
+<br/>
+<h2>CRUZ AMARILLA</h2>
+<br/>
+<h3>Para resolver la cruz amarilla aprenderemos un algoritmo nuevo para agilizar el paso. Una vez sepamos este algoritmo i el que ya usábamos en el método principiante, nos permitirá pasar de la posición en L i la posición l directamente a la cruz. Si nos sale el caso del punto, tendremos que combinar los dos algoritmos.</h3>
+<br/>
+<h3>Recuerda que la cara amarilla no la usamos como cara frontal, la imagen se muestra de esta manera para poder visualizar correctamente la posición de la capa superior.</h3>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/principiant/creu_groga_L.png" alt="Cruz amarilla 1"/>
+<h2>F U R U' R' F'</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/principiant/creu_groga_linia.png" alt="Cruz amarilla 2"/>
+<h2>F R U R' U' F'</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/principiant/creu_groga_punt.png" alt="Cruz amarilla 3"/>
+<h2>Algoritmos 1+2</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/principiant/creu_groga.png" alt="Crux amarilla 4"/>
+<h2>Resuelto</h2>
+<br/>
+<br/>
+<h2>ORIENTACIÓN DE ESQUINAS</h2>
+<h3>Para orientar las esquinas i conseguir toda la cara amarilla, hay 7 casos distintos, cada uno con su algoritmo para conseguir-lo.</h3>
+<br/>
+<h3>Como cuando hicimos la cruz, la cara amarilla tiene que estar en la parte superior.</h3>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_1.png" alt="Primer caso OLL"/>
+<h2>R U2 R’ U’ R U R’ U’ R U’ R’</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_2.png" alt="Segundo caso OLL"/>
+<h2>R U2 R2 U’ R2 U’ R2 U2 R</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_3.png" alt="Tercer caso OLL"/>
+<h2>L’ U R U’ L U R’</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_4.png" alt="Cuarto caso OLL"/>
+<h2>R U’ L’ U R’ U’ L</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_5.png" alt="Quinto paso OLL"/>
+<h2>R2 D’ R U2 R’ D R U2 R</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_6.png" alt="Sexto paso OLL"/>
+<h2>r U R’ U’ r’ F R F’</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_7.png" alt="Septimo paso OLL"/>
+<h2>R’ F’ L’ F R F’ L F</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/OLL/oll_reduit_8.png" alt=""/>
+<h2>Resuelto</h2>
+<hr/>
+<br/>
+<br/>
+<h2>PLL REDUCIDO: PERMUTACIÓN DE LA ÚLTIMA CAPA</h2>
+<br/>
+<h3>PLL consiste en intercambiar las piezas de la última capa sin cambiar su orientación. PLL completo consta de 21 algoritmos distintos, como estamos aprendiendo el método reducido dividiremos PLL en dos pasos, de esta manera los algoritmos a aprender se reducen a 6. Los dos pasos son, permutación de esquinas i permutación de aristas.</h3>
+<br/>
+<h2>PERMUTACIÓN DE ESQUINAS</h2>
+<br/>
+<h3>Nos podemos encontrar 2 situaciones distintas i cada situación tiene sus algoritmos para resolverlas.
+    Moviendo la capa superior del cubo conseguiremos poner dos esquinas en su sitio, una vez ubicadas nos fijamos si estas esquinas están de lado o son opuestas.</h3>
+<br/>
+<h3>Esquinas de lado: orientamos el cubo de manera que las dos esquinas que están de lado queden en la parte posterior del cubo y la cara amarilla arriba. Ahora ya podemos aplicar el algoritmo nº 1, para que todas las esquinas estén bien ubicadas.</h3>
+<br/>
+<h3>Esquinas contrarias: orientaremos el cubo de manera que, la cara amarilla mire arriba y una de las esquinas bien ubicadas quede en la parte superior derecha de la cara frontal. Ya podemos aplicar el algoritmo nº 2 para resolver la situación.</h3>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/PLL/PLL1.png" alt="Permutacion de esquinas primer caso PLL"/>
+<h2>l' U R' D2 R U' R' D2 R2</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/PLL/PLL2.png" alt="Permutacion de esquinas segundo caso PLL"/>
+<h2>R U' R U X U F' U F U2 R U R' U' R'</h2>
+<br/>
+<br/>
+<h2>PERMUTACIÓN DE ARISTAS</h2>
+<br/>
+<h3>En la permutación de aristas podemos encontrar 4 casos diferentes, debemos utilizar uno de los siguientes 4 algoritmos según el caso que encontremos y el cubo quedará resuelto.</h3>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/PLL/complet/h.png" alt="Permutacion de aristas primer caso PLL" height="150"/>
+<h2>M2' U M2' U2 M2' U M2'</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/PLL/complet/z.png" alt="Permutacion de aristas segundo caso PLL" height="150"/>
+<h2>M2' U' M2' U' M U2 M2' U2 M U2</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/PLL/complet/u2.png" alt="Permutacion de aristas tercer caso PLL" height="150"/>
+<h2>R' U R' U' R' U' R' U R U R2</h2>
+<br/>
+<br/>
+<br/>
+<img src="http://www.myrubik.com/imatges/3x3x3/resolucio/cfop/PLL/complet/u1.png" alt="Permutacion de aristas cuarto caso PLL" height="150"/>
+<h2>R U R' U R' U' R2 U' R' U R' U R U2</h2>
+<footer>Joaquin Alexander-F4KU2D0 2021</footer>
+</div>
+</body>
+</html>
